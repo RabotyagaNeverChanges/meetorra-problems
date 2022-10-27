@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.wrapper {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+.inner {
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    border: 5px solid cornflowerblue;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    display: table-cell;
+    vertical-align: middle;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
