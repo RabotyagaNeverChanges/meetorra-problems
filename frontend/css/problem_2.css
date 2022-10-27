@@ -1,0 +1,32 @@
+.menu {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.menu-list {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 0;
+    border: 5px solid #8b7aa8;
+    border-radius: 10px;
+}
+
+.menu-list__item {
+    width: auto;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.menu-list__link {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8b7aa8
+}
+
+.menu-list__link:hover, .menu-list__active-link{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
