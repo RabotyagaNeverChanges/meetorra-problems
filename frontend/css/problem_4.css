@@ -1,0 +1,12 @@
+.wrapper div {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #515151;
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 0 15px;
+}
