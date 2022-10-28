@@ -1,0 +1,1 @@
+$("[data-noprint]").hide();
